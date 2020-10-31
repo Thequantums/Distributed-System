@@ -1,0 +1,134 @@
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Single proposer ...
+  ... Passed
+Test: Many proposers, same value ...
+  ... Passed
+Test: Many proposers, different values ...
+  ... Passed
+Test: Out-of-order instances ...
+  ... Passed
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:43 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:43 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Deaf proposer ...
+  ... Passed
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:45 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:45 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Forgetting ...
+  ... Passed
+2020/05/23 10:47:46 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Done" has 2 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Log" is not a pointer: "[]interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Max" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: method "Min" has 1 input parameters; needs exactly three
+2020/05/23 10:47:46 rpc.Register: reply type of method "Start" is not a pointer: "interface {}"
+2020/05/23 10:47:46 rpc.Register: method "Status" has 2 input parameters; needs exactly three
+Test: Lots of forgetting ...
+signal: interrupt
+FAIL	paxos	4.625s
