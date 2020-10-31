@@ -1,0 +1,8 @@
+2020/05/14 22:16:23 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:16:23 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:16:23 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+--- FAIL: TestFailPut (5.51s)
+    test_test.go:257: wrong primary or backup
+FAIL
+exit status 1
+FAIL	pbservice	5.521s

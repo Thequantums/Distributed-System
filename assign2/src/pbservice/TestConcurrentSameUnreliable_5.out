@@ -1,0 +1,7 @@
+2020/05/18 06:08:40 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/18 06:08:40 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/18 06:08:40 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Concurrent Put()s to the same key; unreliable ...
+cZUilYL6tZg1G7yT  ... Passed
+PASS
+ok  	pbservice	9.517s

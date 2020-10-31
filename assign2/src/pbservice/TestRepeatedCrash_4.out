@@ -1,0 +1,19 @@
+2020/05/14 22:21:21 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:21:21 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:21:21 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Repeated failures/restarts ...
+  ... Put/Gets done ... 
+--- FAIL: TestRepeatedCrash (22.01s)
+    test_test.go:734: key=1000000 wanted=3175235458216131756 got=???
+    test_test.go:734: key=0 wanted=2591908239816918668 got=???
+    test_test.go:756: child failed
+2020/05/14 22:21:43 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:21:43 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:21:43 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Repeated failures/restarts with concurrent updates to same key; unreliable ...
+  ... Appends done ... 
+--- FAIL: TestRepeatedCrashUnreliable (22.01s)
+    test_test.go:427: missing element in Append result
+FAIL
+exit status 1
+FAIL	pbservice	44.024s

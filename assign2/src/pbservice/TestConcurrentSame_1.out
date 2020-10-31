@@ -1,0 +1,19 @@
+2020/05/14 22:16:44 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:16:44 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:16:44 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Concurrent Put()s to the same key ...
+OVH1Zl37y27nC8Z4  ... Passed
+2020/05/14 22:16:55 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:16:55 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:16:55 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Concurrent Append()s to the same key ...
+--- FAIL: TestConcurrentSameAppend (2.51s)
+    test_test.go:427: missing element in Append result
+2020/05/14 22:16:57 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:16:57 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:16:57 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Concurrent Put()s to the same key; unreliable ...
+cZUilYL6tZg1G7yT  ... Passed
+FAIL
+exit status 1
+FAIL	pbservice	22.539s

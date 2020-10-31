@@ -1,0 +1,9 @@
+2020/05/14 22:24:59 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/05/14 22:24:59 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/05/14 22:24:59 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+Test: Old primary does not serve Gets ...
+--- FAIL: TestPartition1 (2.00s)
+    test_test.go:972: primary never formed initial view
+FAIL
+exit status 1
+FAIL	pbservice	2.009s
