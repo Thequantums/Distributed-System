@@ -51,10 +51,6 @@ func (vs *ViewServer) PrintViewServerState() {
 //
 func (vs *ViewServer) Ping(args *PingArgs, reply *PingReply) error {
 
-	if vs.isdead() {
-		return nil
-	}
-
 	//fmt.Printf("---\nGot ping from client\nargs.Viewnum: %d\nargs.Me: %s\n---\n", args.Viewnum, args.Me)
 	
 	// spin lock while waiting to acquire mutex
@@ -142,11 +138,6 @@ func (vs *ViewServer) Get(args *GetArgs, reply *GetReply) error {
 // accordingly.
 //
 func (vs *ViewServer) tick() {
-
-	if vs.isdead() {
-		return
-	}
-
 	// clear off any servers that we haven't gotten a ping for,
 	// and reset ping status of servers that we did get pings for
 	for key, clientInfo := range vs.LiveServers {

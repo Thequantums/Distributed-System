@@ -1,6 +1,6 @@
-2020/04/23 09:09:35 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
-2020/04/23 09:09:35 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
-2020/04/23 09:09:35 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
+2020/04/22 09:40:34 rpc.Register: method "GetRPCCount" has 1 input parameters; needs exactly three
+2020/04/22 09:40:34 rpc.Register: method "Kill" has 1 input parameters; needs exactly three
+2020/04/22 09:40:34 rpc.Register: method "PrintViewServerState" has 1 input parameters; needs exactly three
 Test: First primary ...
   ... Passed
 Test: First backup ...
@@ -20,4 +20,4 @@ Test: Viewserver waits for primary to ack view ...
 Test: Uninitialized server can't become primary ...
   ... Passed
 PASS
-ok  	viewservice	6.477s
+ok  	_/u/cs/ugrad/edwardl/cs134/S20_CS134_Eung_Lu/src/viewservice	6.515s

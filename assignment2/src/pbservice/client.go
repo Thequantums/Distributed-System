@@ -3,7 +3,7 @@ package pbservice
 import "viewservice"
 import "net/rpc"
 import "fmt"
-import "time"
+
 import "crypto/rand"
 import "math/big"
 
@@ -11,7 +11,6 @@ import "math/big"
 type Clerk struct {
 	vs *viewservice.Clerk
 	// Your declarations here
-	current_view viewservice.View
 }
 
 // this may come in handy.
@@ -73,49 +72,18 @@ func call(srv string, rpcname string,
 // says the key doesn't exist (has never been Put().
 //
 func (ck *Clerk) Get(key string) string {
-	//preparing reply and argument struct
-	var reply GetReply
-	args := GetArgs{Key: key, Id: nrand()}
-	//send an RPC
-	ok := call(ck.current_view.Primary, "PBServer.Get", &args, &reply)
-	//if error, resend
-	for !ok || reply.Err == ErrWrongServer {
-		// sleep for an interval before retry again to avoid burning up cpu
-		time.Sleep(viewservice.PingInterval)
-		// get current view from the viewservice because primary could be changed, new view cache.
-		ck.current_view, _ = ck.vs.Get()
-		// resend rpc
-		ok = call(ck.current_view.Primary, "PBServer.Get", &args, &reply)
-		}
 
-		// if a never seen key, return empty string
-	if reply.Err == ErrNoKey {
-		return ""
-	}
+	// Your code here.
 
-	return reply.Value
+	return "???"
 }
 
 //
 // send a Put or Append RPC
 //
 func (ck *Clerk) PutAppend(key string, value string, op string) {
-	// Your code here.
-	// send an RPC get
-	//preparing reply and argument structure
-	var reply PutAppendReply
-	args := PutAppendArgs{Key: key, Value: value, Id: nrand(), Op: op}
-	ok := call(ck.current_view.Primary, "PBServer.PutAppend", &args, &reply) //send an RPC
-	// send to wrong server, or fail to send
-	for !ok || reply.Err == ErrWrongServer {
-		// sleep for an interval before retry again to avoid burning up cpu
-		time.Sleep(viewservice.PingInterval)
-		// get current view from the viewservice because primary could be changed, new view cache.
-		ck.current_view, _ = ck.vs.Get()
-		// resend rpc
-		ok = call(ck.current_view.Primary, "PBServer.PutAppend", &args, &reply)
-		}
 
+	// Your code here.
 }
 
 //

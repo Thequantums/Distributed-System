@@ -60,7 +60,7 @@ func Test1(t *testing.T) {
 		time.Sleep(PingInterval)
 	}
 	check(t, ck1, ck1.me, "", 1)
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("h1xXNnw1B4mZfSeH  ... Passed\n")
 
 	// very first backup
 	fmt.Printf("Test: First backup ...\n")
@@ -77,7 +77,7 @@ func Test1(t *testing.T) {
 		}
 		check(t, ck1, ck1.me, ck2.me, vx.Viewnum+1)
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("WGoiRtn96sA5DnHK  ... Passed\n")
 
 	// primary dies, backup should take over
 	fmt.Printf("Test: Backup takes over if primary fails ...\n")
@@ -94,7 +94,7 @@ func Test1(t *testing.T) {
 		}
 		check(t, ck2, ck2.me, "", vx.Viewnum+1)
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("t8AGZVjHkT0M76eg  ... Passed\n")
 
 	// revive ck1, should become backup
 	fmt.Printf("Test: Restarted server becomes backup ...\n")
@@ -112,7 +112,7 @@ func Test1(t *testing.T) {
 		}
 		check(t, ck2, ck2.me, ck1.me, vx.Viewnum+1)
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("HxYnZ22GcZf7KYb7  ... Passed\n")
 
 	// start ck3, kill the primary (ck2), the previous backup (ck1)
 	// should become the server, and ck3 the backup.
@@ -134,7 +134,7 @@ func Test1(t *testing.T) {
 		}
 		check(t, ck1, ck1.me, ck3.me, vx.Viewnum+1)
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("ryAVs9GXXOuc8ugw  ... Passed\n")
 
 	// kill and immediately restart the primary -- does viewservice
 	// conclude primary is down even though it's pinging?
@@ -157,7 +157,7 @@ func Test1(t *testing.T) {
 			t.Fatalf("expected primary=%v, got %v\n", ck3.me, vy.Primary)
 		}
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("RC6vEg2xs8T0DwuR  ... <Passed></Passed>\n")
 
 	fmt.Printf("Test: Dead backup is removed from view ...\n")
 
@@ -174,7 +174,7 @@ func Test1(t *testing.T) {
 			t.Fatalf("wrong primary or backup")
 		}
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("UqOfJ99u5Brl1UlX  ... Passed\n")
 
 	// does viewserver wait for ack of previous view before
 	// starting the next one?
@@ -206,7 +206,7 @@ func Test1(t *testing.T) {
 		}
 		check(t, ck2, ck3.me, ck1.me, vy.Viewnum)
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("9itYXuLzp3XPnb7D  ... Passed\n")
 
 	// if old servers die, check that a new (uninitialized) server
 	// cannot take over.
@@ -229,7 +229,7 @@ func Test1(t *testing.T) {
 			t.Fatalf("uninitialized backup promoted to primary")
 		}
 	}
-	fmt.Printf("  ... Passed\n")
+	fmt.Printf("H0sKdux4AfFChMam  ... Passed\n")
 
 	vs.Kill()
 }
